@@ -1,0 +1,29 @@
+{
+  "name": "as-arr",
+  "version": "1.0.0",
+  "description": "Convert objects (specially strings) into arrays",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "^4.5.1"
+  },
+  "scripts": {
+    "test": "tape tests/*.js",
+    "prepublish": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danigb/as-arr.git"
+  },
+  "keywords": [
+    "split",
+    "string",
+    "array"
+  ],
+  "author": "danigb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danigb/as-arr/issues"
+  },
+  "homepage": "https://github.com/danigb/as-arr#readme"
+}
